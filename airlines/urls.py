@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('flights/', include("flights.urls")),
     path('flight1/', include("flights.urls")),
+    path('flight2/', include("flights.urls")),
 ]
